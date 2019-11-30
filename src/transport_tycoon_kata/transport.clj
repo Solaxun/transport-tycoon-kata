@@ -1,4 +1,4 @@
-(ns transport-tycoon-kata.core
+(ns transport-tycoon-kata.transport
   (:gen-class))
 
 (defn warehouse [workers deliveries]
