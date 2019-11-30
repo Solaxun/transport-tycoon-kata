@@ -61,7 +61,6 @@
 
 (defn move-deliveries
   [{:keys [time waypoints] :as state}]
-  (println state)
   (-> state
       (update :time inc)
       (update :waypoints (comp (partial apply merge) (partial map travel)))
